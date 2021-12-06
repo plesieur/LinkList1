@@ -61,7 +61,7 @@ namespace Linkied_List
             {
                 myList1.AddFirst(i);    //Add a member to list
             }
-            myList1.printAllNodes();
+            myList1.printAllNodes();    //Expected Output:  5 4 3 2 1
 
             //Remove comments to test your AddLast() method
             //            LinkedList myList2 = new LinkedList();  //Creates the head to the 2nd list
@@ -72,6 +72,7 @@ namespace Linkied_List
             //            myList2.printAllNodes();
 
             //Remove comments to test your deleteNode() method
+            //            LinkedList myList3 = new LinkedList();  //Creates the head to the 3rd list
             //            for (int i = 1; i <= 10; i++)
             //            {
             //                myList3.AddLast(i);
